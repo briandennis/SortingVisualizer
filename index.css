@@ -1,5 +1,10 @@
 body {
-  background: #FCDDBC; }
+  background: #FCDDBC;
+  font-family: 'Noto Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 h1 {
   color: #EF959D;
@@ -20,5 +25,27 @@ h1 {
     color: #B8D8BA;
     font-size: 1.5em;
     font-family: 'Noto Sans', sans-serif; }
+
+#sortControl {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+  #sortControl h3 {
+    font-size: 1.5em;
+    color: #EF959D; }
+  #sortControl h3:hover {
+    color: #B8D8BA; }
+
+#sort {
+  padding-top: 100px;
+  text-align: center;
+  height: 300px;
+  width: 80%; }
+
+#prompt {
+  color: #B8D8BA;
+  font-size: 2.5em; }
 
 /*# sourceMappingURL=index.css.map */
