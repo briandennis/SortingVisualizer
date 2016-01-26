@@ -42,7 +42,10 @@ h1 {
   padding-top: 100px;
   text-align: center;
   height: 300px;
-  width: 80%; }
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline; }
 
 #prompt {
   color: #B8D8BA;
